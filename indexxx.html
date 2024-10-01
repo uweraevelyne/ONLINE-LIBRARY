@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="describing myself">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>ASSIGNMENT</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+	<video autoplay muted loop>
+        <source src="../videos/video.mp4" type="video/mp4">
+    	</video>
+	<div>
+		
+	 	<fieldset>
+	 		<legend><b>1) What is HTML and what does it stand for?</b></legend>
+	 		<label>HTML stands as HyperText Markup Language which is used to format the structure of webpage.</label>
+	 	</fieldset>
+
+
+
+	 	<fieldset>
+	 		<legend><b>2)What is the difference between HTML and XHTML?</b></legend>
+	 		<table border="1">
+	 			<tr>
+	 				<th>HTML</th>
+	 				<th>XHTML</th>
+	 			</tr>
+	 			<tr>
+	 				<td>HTML stand for HyperText Markup Language</td>
+	 				<td>XHTML stand for eXtensible HyperText Markup Language</td>
+	 			</tr>
+	 			<tr>
+	 				<td>Html tag doesn't have an XMLNS attribute.</td>
+	 				<td>XHTML must contain an XMLNS attribute.</td>
+	 			</tr>	
+	 			<tr>
+	 				<td>In HTML, Single tags are not closed.</td>
+	 				<td>in XHTML, All tags must be closed even single tags</td>
+	 			</tr>		 			
+	 		</table>
+	 	</fieldset>
+
+
+
+	 	<fieldset>
+	 		<legend><b>3)What are the basic building blocks of an HTML document?</b></legend>
+	 		<table border="1">
+	 			<tr>
+	 				<th>Name</th>
+	 				<th>Tag</th>
+	 				<th>Description</th>
+	 			</tr>
+	 			<tr>
+	 				<td>Doctype declaration:</td>
+	 				<td>&lt;!DOCTYPE html&gt;</td>
+	 				<td>Defines the document type and HTML version we're using.Here is HTML version 5</td>
+	 			</tr>
+	 			<tr>
+	 				<td>HTML Element:</td>
+	 				<td>&lt;html&gt;</td>
+	 				<td>The root element that wraps all the content on the page</td>
+	 			</tr>
+	 			<tr>
+	 				<td>Head:</td>
+	 				<td>&lt;head&gt;</td>
+	 				<td>Contains meta-information about the document, such as the title and links to stylesheets.</td>
+	 			</tr>
+	 			<tr>
+	 				<td>Title:</td>
+	 				<td>&lt;title&gt;</td>
+	 				<td>Sets the title of the document, which appears in the browser’s title bar.</td>
+	 			</tr>
+	 			<tr>
+	 				<td>Body:</td>
+	 				<td>&lt;body&gt;</td>
+	 				<td>Contains the content of the HTML document, such as text, images, and links.</td>
+	 			</tr>
+	 			<tr>
+	 		</table>
+	 	</fieldset>
+
+
+	 	<fieldset>
+	 		<legend><b>4) How do you create a hyperlink in HTML?</b></legend>
+	 		<label>Inserting a hyperlink in HTML we use &lt;a&gt; Tag with <b>href</b> attribute </label><br>
+	 		<label><b>Ex:</b>&lt;a href="https://www.google.com"&gt;Visit google&lt;/a&gt;</label>
+	 	</fieldset>
+
+
+	 	<fieldset>
+	 		<legend><b>5) What is the purpose of the "alt" attribute in the HTML "img" tag?</b></legend>
+	 		<label><b>alt</b> attribute in <b>img</b> tag, Provides alternative text for an image if it cannot be displayed. It is also used by screen readers to describe the image to visually impaired users.</label>
+	 	</fieldset>
+
+
+	 	<fieldset>
+	 		<legend><b>6) How can you create a table in HTML?</b></legend>
+	 		<label>You create a table using the &lt;table&gt; tag, along with &lt;tr&gt; for table rows, <th> for table headers, and <td> for table data cells.</label>
+	 	</fieldset>
+
+
+	 	<fieldset>
+	 		<legend><b>7) What is the purpose of the "doctype" declaration in HTML?</b></legend>
+	 		<label>The &lt;!DOCTYPE html&gt; declaration defines the document type and version of HTML. It helps browsers render the page correctly.</label>
+	 	</fieldset>
+
+
+	 	<fieldset>
+	 		<legend><b>8) What is the difference between HTML elements and HTML tags?</b></legend>
+	 		<label>&square; HTML elements: These are the building blocks of HTML pages, consisting of a start tag, content, and an end tag. For example, &lt;p&gt;This is a paragraph.&lt;/p&gt; is a paragraph element.<br>
+			&square; HTML tags: These are the parts of HTML elements that define the beginning and end of an element. For instance, &lt;p&gt; is a start tag and &lt;/p&gt; is an end tag.</label>
+	 	</fieldset>
+
+
+	 	<fieldset>
+	 		<legend><b>9) How do you add comments in HTML?</b></legend>
+	 		<label>You can add comments in HTML using the following syntax:
+			&lt;!-- This is a comment --&gt;<br>
+			Comments are not displayed in the browser and are used to leave notes or explanations in the code.</label>
+	 	</fieldset>
+
+
+
+	 	<fieldset>
+	 		<legend><b>10) What is the significance of the "head" section in an HTML document?</b></legend>
+	 		<label>The &lt;head&gt; section contains meta-information about the HTML document, such as its title, character set, styles, scripts, and other meta tags. This information is not displayed on the webpage but is essential for proper rendering and functionality.</label>
+	 	</fieldset>
+
+
+	 	<fieldset>
+	 		<legend><b>11) How do you define headings in HTML?</b></legend>
+	 		<label>Headings in HTML are defined using the &lt;h1&gt; to &lt;h6&gt; tags, with &lt;h1&gt; being the highest (or most important) level and &lt;h6&gt; being the lowest.</label>
+	 	</fieldset>
+	<fieldset>
+	 		<legend><b>12) What is the role of the "title" element in HTML?</b></legend>
+	 		<label>The &lt;title&gt; element defines the title of the HTML document, which is displayed in the browser’s title bar or tab. It is placed within the &lt;head&gt; section.</label>
+	 	</fieldset>
+
+
+	 	<fieldset>
+	 		<legend><b>13) How do you create an ordered list in HTML?</b></legend>
+	 		<label>ou can create an ordered list using the &lt;ol&gt; tag, with each list item enclosed in &lt;li&gt; tags.<br>For example:<br>
+			&lt;ol&gt;<br>
+			&lt;li&gt;First item&lt;/li&gt;<br>
+			&lt;li&gt;Second item&lt;/li&gt;<br>
+			&lt;li&gt;Third item&lt;/li&gt;<br>
+			&lt;/ol&gt;<br><br>
+			<b>OUTPUT:</b>
+			<ol>
+			  <li>First item</li>
+			  <li>Second item</li>
+			  <li>Third item</li>
+			</ol>
+			</label>
+	 	</fieldset>
+
+
+	 	<fieldset>
+	 		<legend><b>14) What are the different types of form elements in HTML?</b></legend>
+	 		<label>HTML forms can include various types of elements, such as:<br>
+
+			&lt;input&gt;: For text fields, checkboxes, radio buttons, etc.<br>
+			&lt;textarea&gt;: For multi-line text input.<br>
+			&lt;select&gt;: For drop-down lists.<br>
+			&lt;button&gt;: For clickable buttons.<br>
+			&lt;label&gt;: For labeling form elements.
+		</label>
+	 	</fieldset>
+
+
+	 	<fieldset>
+	 		<legend><b>15) How do you embed an image in an HTML document?</b></legend>
+	 		<label>You can embed an image using the <img> tag, with the src attribute specifying the path to the image file.<br>For example:<br>
+
+			&lt;img src="image.jpg" alt="Description of image"&gt;
+			</label>
+	 	</fieldset>
+
+
+
+	 	<fieldset>
+	 		<legend><b>16) What is the purpose of the "href" attribute in an anchor tag?</b></legend>
+	 		<label>The <b>href</b> attribute in an &lt;a&gt; (anchor) tag specifies the URL of the page the link goes to</label>
+	 	</fieldset>
+
+
+	 	<fieldset>
+	 		<legend><b>17) How do you create a line break in HTML?</b></legend>
+	 		<label>You can create a line break using the <b> &lt;br&gt; </b> tag. 
+	 		<br>For example:
+	 		<br><br>
+
+			This is a line.<b>&lt;br&gt;</b><br>
+			This is another line.
+		</label>
+	 	</fieldset>
+
+
+	 	<fieldset>
+	 		<legend><b>18) What is the purpose of the "target" attribute in an anchor tag?</b></legend>
+	 		<label>The "target" attribute specifies where to open the linked document. <br>
+	 		For example, target="_blank" opens the link in a new tab or window.</label>
+	 	</fieldset>
+
+
+	 	<fieldset>
+	 		<legend><b>19) What is the difference between block-level and inline elements in HTML?</b></legend>
+	 		<label><b>Block-level elements:</b> These elements take up the full width available and start on a new line. Examples include &lt;div&gt;, &lt;p&gt;, and &lt;h1&gt;.
+	 		<br>
+			<b>Inline elements:</b> These elements take up only as much width as necessary and do not start on a new line. Examples include &lt;span&gt;, &lt;a&gt;, and &lt;img&gt;.</label>
+	 	</fieldset>
+
+
+	 	<fieldset>
+	 		<legend><b>20) How do you create a horizontal rule in HTML?</b></legend>
+	 		<label>You can create a horizontal rule using the <b>&lt;hr&gt;</b> tag.<br> 
+	 		For example:
+	 		<hr>
+	 		</label>
+	 	</fieldset>
+	 	<fieldset>
+	 		<legend><b>21) What is the role of the "span" element in HTML?</b></legend>
+	 		<label>
+	 			The "span" element is used for grouping inline elements and applying styles without creating a new block.
+	 		</label>
+	 	</fieldset>
+
+
+
+	 	<fieldset>
+	 		<legend><b>22) How do you create a checkbox in HTML?</b></legend>
+	 		<label> You create a checkbox using the &lt;input type="checkbox"&gt; tag.<br>
+	 		For example: This is checkbox: <input type="checkbox">
+	 		</label>
+	 	</fieldset>
+
+
+	 	<fieldset>
+	 		<legend><b>23) What is the purpose of the "src" attribute in the "script" tag?</b></legend>
+	 		<label>The "src" attribute specifies the URL of an external script file to be loaded.</label>
+	 	</fieldset>
+
+
+	 	<fieldset>
+	 		<legend><b>24) How do you create a dropdown menu in HTML?</b></legend>
+	 		<label> You create a dropdown menu using the &lt;select&gt; tag with nested &lt;option&gt; tags.
+	 		<br>
+	 		For example:This is dropdown:
+	 		 <select>
+		      <option>First option</option>
+		      <option>Second option</option>
+		    </select>
+     	</label>
+	 	</fieldset>
+
+
+
+	 	<fieldset>
+	 		<legend><b>25) What is the purpose of the "colspan" attribute in an HTML table?</b></legend>
+	 		<label>The "colspan" attribute specifies the number of columns that a cell should span across.</label>
+	 	</fieldset>
+
+
+
+	 	<fieldset>
+	 		<legend><b>26) How do you add a background image to an HTML element?</b></legend>
+	 		<label>You can add a background image using CSS: style="background-image: url('image.jpg');".</label>
+	 	</fieldset>
+
+
+	 	<fieldset>
+	 		<legend><b>27) What is the purpose of the "action" attribute in an HTML form?</b></legend>
+	 		<label>The "action" attribute specifies the URL where the form data will be submitted.</label>
+	 	</fieldset>
+
+
+
+	 	<fieldset>
+	 		<legend><b>28) How do you add a video to an HTML document?</b></legend>
+	 		<label>You add a video using the &lt;video&gt; tag:
+	 		<br>
+	 		For example:
+	 		<br>
+     		&lt;video controls&gt;<br>
+       		&lt;source src="video.mp4" type="video/mp4"&gt;<br>
+     		&lt;/video&gt;</label>
+	 	</fieldset>
+
+
+	 	<fieldset>
+	 		<legend><b>29) What is the purpose of the "disabled" attribute in an input field?</b></legend>
+	 		<label> 
+	 		The "disabled" attribute prevents the user from interacting with the input field.
+	 		<br>
+	 		For example:
+	 		<br>
+	 		<form>
+	 			Enter your names::<input type="text" name="name" placeholder="This input is disabled" disabled>
+	 		</form>
+	 		</label>
+	 	</fieldset>
+
+
+	 	<fieldset>
+	 		<legend><b>30) How do you create a form in HTML?</b></legend>
+	 		<label> You create a form using the &lt;form&gt; tag, enclosing input elements:
+	 		<br>
+	 		For example:<br>
+		    &lt;form&gt;<br>
+		    	&lt;h3&gt;Login Form&lt;/h3&gt;<br>
+		    	&lt;label&gt;Username:&lt;/label&gt;<br>
+		       &lt;input type="text" name="name"&gt;<br>&lt;br&gt;&lt;br&gt;<br>
+		       &lt;label&gt;Password&lt;/label&gt;<br>
+		       &lt;input type="password" name="password"&gt;
+		       &lt;br&gt;<br>
+		       &lt;button&gt;Login&lt;/button&gt;
+		    &lt;/form&gt;
+	 		<br>
+	 		<br>
+	 		<b>OUTPUT(<i>With CSS</i>)</b>
+		    <form class="q30">
+		    	<h3>Login Form</h3>
+		    	<label>Username:</label>
+		       <input type="text" name="name"><br><br>
+		       <label>Password</label>
+		       <input type="password" name="password">
+		       <br>
+		       <button>Login</button>
+		    </form>
+   			</label>
+
+	 	</fieldset>
+	 	<fieldset>
+	 		<legend><b>31) What is the purpose of the "placeholder" attribute in an input field?</b></legend>
+	 		<label>The "placeholder" attribute provides a temporary hint to the user about what to enterin the input field.</label>
+	 	</fieldset>
+
+
+
+	 	<fieldset>
+	 		<legend><b>32) How do you create a hyperlink with an image in HTML?</b></legend>
+	 		<label> You can create a hyperlink with an image using the &lt;a&gt; tag around the &lt;img&gt; tag:
+   			<br>
+   			For example:
+   			<br>
+
+  			&lt;a href=&quot;url&quot;&gt;&lt;img src=&quot;image.jpg&quot; alt=&quot;description&quot;&gt;&lt;/a&gt;</label>
+	 	</fieldset>
+
+
+	 	<fieldset>
+	 		<legend><b>33) What is the purpose of the "required" attribute in an input field?</b></legend>
+	 		<label>The &quot;required&quot; attribute indicates the input field must be filled out before submitting the form.
+	 		</label>
+	 	</fieldset>
+
+
+
+	 	<fieldset>
+	 		<legend><b>34) How do you create a responsive layout in HTML?</b></legend>
+	 		<label> A responsive layout can be achieved using CSS, including media queries and flexible grid systems, along the `viewport` meta tag in the head section:
+	 		<br>
+	 		For example
+	 		<br>
+   			&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+   			</label>
+	 	</fieldset>
+
+
+	 	<fieldset>
+	 		<legend><b>35) What is the purpose of the "charset" attribute in the "meta" tag?</b></legend>
+	 		<label>The &quot;charset&quot; attribute specifies character encoding for the HTML document, ensuring proper text rendering.
+	 		<br>
+	 		For example:
+	 		<br>
+   			&lt;meta charset=&quot;UTF-8&quot;&gt;</label>
+	 	</fieldset>
+
+
+	 	<fieldset>
+	 		<legend><b>36) What is the purpose of the "autocomplete" attribute in an input field?</b></legend>
+	 		<label>The &quot;autocomplete&quot; attribute specifies whether the should automatically fill the input field based on previous entries.</label>
+	 	</fieldset>
+
+
+	 	<fieldset>
+	 		<legend><b>37) How do you create a button in HTML?</b></legend>
+	 		<label>You create a button using the &lt;button&gt; tag or an &lt;input&gt; tag with type="button":
+	 		<br>
+	 		For example:
+   			&lt;button&gt;Click Me&lt;/button;
+   			<br><br>
+   			<b>OUTPUT</b>
+   			This is button:<button>Click Me</button>
+   			</label>
+	 	</fieldset>
+
+
+
+	 	<fieldset>
+	 		<legend><b>38) What is the purpose of the "nowrap" attribute in an HTML table?</b></legend>
+	 		<label>The "nowrap" attribute (now deprecated) was used to prevent text in a table cell from wrapping onto the next line. Instead, the text would stay on a single line, possibly expanding the cell width.</label>
+	 	</fieldset>
+
+
+	 	<fieldset>
+	 		<legend><b>39) How do you create a responsive image in HTML?</b></legend>
+	 		<label>To create a responsive image, you can set the CSS properties of the image to make its width 100% and height auto. This allows the image to resize based on its container while maintaining its aspect ratio:
+	 		<br>
+	 		For example:
+  			&lt;img src="image.jpg" style="width: 100%; height: auto;" alt="description"&gt;</label>
+	 	</fieldset>
+
+
+
+	 	<fieldset>
+	 		<legend><b>40) What is the purpose of the "target" attribute in an anchor tag?</b></legend>
+	 		<label> The "target" attribute specifies where to open the linked document. 
+	 		<br>
+	 		Common values include:
+	 		<br>
+  			<b>blank</b>: Opens the link in a new tab or window.<br>
+  			<b>self</b>: Opens the link in the same frame as it was clicked (default).<br>
+  			<b>parent</b>: Opens the link in the parent frame.<br>
+  			<b>top</b>: Opens the link in the full body of the window.</label>
+	 	</fieldset>
+	 	<fieldset>
+	 		<legend><b>41) How do you create a button in HTML?</b></legend>
+	 		<label>You create a button using the &lt;button&gt; tag or an &lt;input&gt; tag with type="button":
+	 		<br>
+	 		For example:
+   			&lt;button&gt;Click Me&lt;/button;
+   			<br><br>
+   			<b>OUTPUT:</b>
+   			This is button:<button>Click Me</button></label>
+	 	</fieldset>
+<video autoplay muted loop>
+        <source src="../videos/video.mp4" type="video/mp4">
+    	</video>
+	<div>
+		
+	 	<fieldset>
+	 		<legend><b>42) What is the purpose of the "target" attribute in an anchor tag?</b></legend>
+	 		<label>Same as question 40</label>
+	 	</fieldset>
+
+
+	 	<fieldset>
+	 		<legend><b>43) What is the purpose of the "placeholder" attribute in a textarea?</b></legend>
+	 		<label>Same as question 31</label>
+	 	</fieldset>
+
+
+
+	 	<fieldset>
+	 		<legend><b>44) What is the purpose of the "readonly" attribute in an input field?</b></legend>
+	 		<label>The "readonly" attribute makes an input field non-editable, meaning the user cannot change its value, but the value can still be submitted with the form.</label>
+	 	</fieldset>
+
+
+	 	<fieldset>
+	 		<legend><b>45) How do you create a responsive video in HTML?</b></legend>
+	 		<label>To create a responsive video, you can use acombination of the &lt;video&gt; tag and CSS.
+	 		<br>
+	 		For example:
+	 		<br>
+
+			&lt;div style="position: relative; padding-bottom: 56.25%; height: ;"&gt;
+			<br>
+  			&lt;iframe src="video_url" style="position: absolute; width: 100%; height:100%;" frameborder=" allowfullscreen"&gt;
+  			<br>
+  			&lt;/iframe&gt;
+		&lt;/div&gt;
+		</label>
+	 	</fieldset>
+
+
+
+	 	<fieldset>
+	 		<legend><b>46) media queries to modify the video size or aspect ratio for different screen resolutions or device orientations, ensuring a responsive video display.</b></legend>
+	 		<label>- Media queries can be used in your CSS to adjust the size or aspect ratio of your video based on different screen sizes. <br>
+	 		For example:
+	 		<br>
+			@media (max-width: 600px) {<br>
+  			.video-container {<br>
+    		width: 500px;<br>
+    		height:400px;<br>
+  			}<br>
+			}<br>
+
+			@media (min-width: 601px) {<br>
+  			.video-container {<br>
+    		width: 600px;<br>
+    		height:450px;<br>
+  			}<br>
+			}<br>
+			</label>
+	 	</fieldset>
+
+
+	 	<fieldset>
+	 		<legend><b>47) How do you embed audio in an HTML document?</b></legend>
+	 		<label>You can embed audio using the &lt;audio&gt; tag.
+	 		<br>
+	 		For example:
+	 		<br>
+			&lt;audio controls&gt;
+  			&lt;source src="audio.mp3" type="audio/mpeg"&gt;
+  			Your browser does not support the audio element.
+			&lt;/audio&gt;
+		</label>
+	 	</fieldset>
+
+
+	 	<fieldset>
+	 		<legend><b>48) Advanced HTML Interview Questions and Answers</b></legend>
+	 		<label><b>label>
+	 	</fieldset>
+
+
+	 	<fieldset>
+	 		<legend><b>49) What is the purpose of the "span" element in HTML?</b></legend>
+	 		<label>The &lt;span&gt; element is an inline container used to mark up a part of a text or a document. It allows for styling and grouping without breaking the flow of text.</label>
+	 	</fieldset>
+
+
+
+	 	<fieldset>
+	 		<legend><b>50) What is the purpose of the "required" attribute in a form element?</b></legend>
+	 		<label>The "required" attribute indicates that the user must fill out the input field before submitting the form. If the field is left empty, the browser will prevent the form from being submitted and typically display a message prompting the user to fill it in.  </label>
+	 	</fieldset>
+
+
+	 	<fieldset>
+	 		<legend><b>51) How do you create a checkbox in HTML?</b></legend>
+	 		<label>To create a checkbox, use the &lt;input&gt; tag with the type set to "checkbox".
+	 		<br>For example:
+	 		<br>
+	 		&lt;label for="check"&gt;Check this box&lt;/label&gt;<br>
+	 		&lt;input type="checkbox" id="check" name="check"&gt;
+	 		<br>
+	 		<br>
+	 		<b>OUTPUT:</b>
+	 		<label for="check">Check this box</label>
+			<input type="checkbox" id="check" name="check">
+		</label>
+	 	</fieldset>
+
+		
+
+	</div>
+<video autoplay muted loop>
+        <source src="../videos/video.mp4" type="video/mp4">
+    	</video>
+	<div>
+		
+	 	<fieldset>
+	 		<legend><b>52) What is the purpose of the "cols" and "rows" attributes in the "textarea" tag?</b></legend>
+	 		<label>&square;The cols attribute specifies the visible width of the textarea in terms of character columns.
+	 		<br>
+	 		&square;The rows attribute specifies the visible number of text lines in the textarea.
+	 		<br>
+	 		For example:
+	 		<br>
+			&lt;textarea cols="30" rows="10"&gt;&lt;/textarea&gt;</label>
+			<br>
+			<br>
+			<b>OUTPUT:</b>
+			<br>
+			<textarea cols="30" rows="10"></textarea>
+	 	</fieldset>
+
+
+	 	<fieldset>
+	 		<legend><b>53) What is the purpose of the "scope" attribute in an HTML table?</b></legend>
+	 		<label>The scope attribute is used in &lt;th&gt; (table header) elements to specify whether the header cell is for a row, column, or group of rows or columns. 
+	 		<br>Possible values are:<br>
+			<b>col:</b>The header cell is a header for a column.<br>
+			<b>row:</b>The header cell is a header for a row.<br>
+			<b>colgroup:</b>The header cell is a header for a group of columns.<br>
+			<b>rowgroup:</b>The header cell is a header for a group of rows.</label>
+	 	</fieldset>
+
+
+	 	<fieldset>
+	 		<legend><b>54) What is the purpose of the "rel" attribute in the "link" tag?</b></legend>
+	 		<label>The "rel" attribute specifies the relationship between the current document and the linked resource. 
+	 		<br>Common values include:
+	 		<br>
+
+			<b>stylesheet:</b> Indicates that the linked document is a stylesheet.<br>
+			<b>icon:</b> Indicates that the linked document is an icon for the resource.<br>
+			<b>noopener</b> Prevents the newly opened page from having access to the original page.
+			</label>
+	 	</fieldset>
+
+
+
+	 	<fieldset>
+	 		<legend><b>55) How do you create a range input slider in HTML?</b></legend>
+	 		<label>You can create a range input slider using the &lt;input&gt; tag with the type set to "range":
+	 		<br>
+	 		For example:
+	 		<br>
+			&lt;input type="range" min="1" max="100" value="50"&gt;
+			<br>
+			<br>
+			<b>OUTPUT:</b>
+			<br>
+			This is range:<input type="range" min="1" max="100" value="70">
+		</label>
+	 	</fieldset>
+
+
+
+	 	<fieldset>
+	 		<legend><b>56) What is the purpose of the "disabled" attribute in an HTML element?</b></legend>
+	 		<label>The "disabled" attribute makes an HTML element unresponsive to user interaction. For example, a disabled button cannot be clicked, and a disabled input field cannot be edited:
+	 		<br>
+	 		For example:
+	 		<br>
+	 		&lt;input type="text" disabled placeholder="Can't be edited"&gt;
+	 		<br>
+			&lt;button disabled&gt;Can't Click Me&lt;/button&gt;
+			<br>
+			<br>
+			<b>OUTPUT:</b>
+			<br>
+	 		<input type="text" disabled placeholder="Can't be edited">
+			<button disabled>Can't Click Me</button>
+			</label>
+	 	</fieldset>
+
+
+
+	 	<fieldset>
+	 		<legend><b>57) What is the purpose of the "maxlength" attribute in an input field?</b></legend>
+	 		<label>The `maxlength` attribute specifies the maximum number of characters allowed in an input field. 
+	 		<br>For example:<br>
+	 		&lt;input type="text" maxlength="10"&gt;
+	 		<br>
+	 		<br>
+	 		<b>OUTPUT:</b>
+
+			Only ten characters:<input type="text" maxlength="10">
+			</label>	
+	 	</fieldset>
+
+
+	</div>
+
+<video autoplay muted loop>
+        <source src="../videos/video.mp4" type="video/mp4">
+    	</video>
+	<div>
+		
+	 	<fieldset>
+	 		<legend><b>58) How do you create a numbered list in HTML?</b></legend>
+	 		<label>To create a numbered list, use "type" attribute with value="1" in  &lt;ol&gt; (ordered list) tag, along with &lt;li&gt; (list item) tags:
+	 		<br>
+	 		For example:
+	 		<br>
+			&lt;ol type="1"&gt;<br>
+			  &lt;li&gt;First item&lt;/li&gt;<br>
+			  &lt;li&gt;Second item&lt;/li&gt;<br>
+			  &lt;li&gt;Third item&lt;/li&gt;<br>
+			&lt;/ol&gt;
+			<br>
+			<br>
+			<b>OUTPUT:</b>
+			<br>
+			<ol type="1">
+			  <li>First item</li>
+			  <li>Second item</li>
+			  <li>Third item</li>
+			</ol>
+			</label>
+	 	</fieldset>
+
+
+	 	<fieldset>
+	 		<legend><b>59) What is the purpose of the "target" attribute in the "form" tag?</b></legend>
+	 		<label>The "target" attribute in form tag specifies where to send the form data when the form is submitted. 
+	 		<br>Common values include:<br>
+			<b>self:</b> Submit the form in the same frame (default).<br>
+			<b>blank:</b> Submit the form in a new tab or window.<br>
+			<b>parent:</b> Submit the form in the parent frame.<br>
+			<b>top:</b> Submit the form in the full body of the window.</label>
+	 	</fieldset>
+
+
+
+	 	<fieldset>
+	 		<legend><b>60) How do you create a multi-line text input field in HTML?</b></legend>
+	 		<label>You can create a multi-line text input field using the &lt;textarea&gt; tag:
+	 		<br>For example:<br>
+	 		&lt;textarea rows="4" cols="50"&gt;This is mult-line text input field&lt;/textarea&gt;
+	 		<br>
+	 		<br>
+	 		<b>OUTPUT:</b><br>
+			<textarea rows="4" cols="50">This is mult-line text input field</textarea></label>
+	 	</fieldset>
+
+
+	 	<fieldset>
+	 		<legend><b>61) What is the purpose of the "hidden" attribute in an HTML element?</b></legend>
+	 		<label>The hidden" attribute is used to prevent  the element from being  displayed in the browser when is set.</label>
+	 	</fieldset>
+
+
+
+	 	<fieldset>
+	 		<legend><b>62) How do you set the background color of an HTML element?</b></legend>
+	 		<label>You can set the background color using background-color CSS property.<br>
+	 		For example:<br>
+			&lt;div style="background-color: lightblue;"&gt; div with lightblue background color .&lt;/div&gt;
+			</label>
+	 	</fieldset>
+
+
+	 	<fieldset>
+	 		<legend><b>63) How do you add a border to an HTML element?</b></legend>
+	 		<label>You can add border using border CSS property.<br>
+	 		For example:<br>
+			&lt;div style="border: 2px solid green;"&gt; div with green border.&lt;/div&gt;
+			</label>
+	 	</fieldset>
+
+
+	 	<fieldset>
+	 		<legend><b>64) How do you center-align text horizontally in an HTML element?</b></legend>
+	 		<label><label>You can center-align using text-align CSS propert.<br>
+	 		For example:<br>
+			&lt;p style="text-align: center;"&gt; p which is aligned center.&lt;/p&gt;
+			</label>
+	 	</fieldset>
+
+
+	 	<fieldset>
+	 		<legend><b>65) How do you set the font color of an HTML element?</b></legend>
+	 		<label>You can set font color using CSS.<br>
+	 		For example:<br>
+			&lt;div style="color: green;"&gt; div with green font color.&lt;/div&gt;
+			</label>
+	 	</fieldset>
+
+	
+	</div>
+	<video autoplay muted loop>
+        <source src="../videos/video.mp4" type="video/mp4">
+    	</video>
+	<div>
+		<h2>||<u>ASSIGNMENT Cont..</u>||</h2>
+	 	
+	 	<fieldset>
+	 		<legend><b>66) What is the purpose of the HTML &lt;meta&gt; tag?</b></legend>
+	 		<label>The &lt;meta&gt; tag provides metadata about the HTML document, such as character set, author, description, keywords, and viewport settings. 
+	 		<br>For example:<br>
+
+			&lt;meta charset="UTF-8"&gt;<br>
+			&lt;meta name="description" content="This is a description of my web page."&gt;<br>
+			&lt;meta name="viewport" content="width=device-width, initial-scale=1."&gt;
+			</label>
+	 	</fieldset>
+
+
+	 	<fieldset>
+	 		<legend><b>67) What is the purpose of the HTML &lt;iframe&gt; tag?</b></legend>
+	 		<label>The &lt;iframe&gt; tag is used to embed another HTML document within the current document. It is often used for embedding content like videos, maps, or other web pages:
+			<br>
+			For example:
+			<br>
+			&lt;iframe src="https://www.example.com"; width="600" height="400">&lt;/iframe></label>
+	 	</fieldset>
+
+
+	 	<fieldset>
+	 		<legend><b>68) What is the purpose of the HTML &lt;header&gt; tag?</b></legend>
+	 		<label>The &lt;header&gt; tag represents introductory content or a group of navigational links. It is typically used to contain headings, logos, or navigation menus for a section or the entire page.</label>
+	 	</fieldset>
+
+
+	 	<fieldset>
+	 		<legend><b>69) What is the purpose of the HTML &lt;aside&gt; tag?</b></legend>
+	 		<label>The &lt;aside&gt; tag is used for content that is tangentially related to the content around it, such as sidebars, pull quotes, or related links. It is typically used to include supplementary information:</label>
+	 	</fieldset>
+
+
+	 	<fieldset>
+	 		<legend><b>70) What is the role of the "canvas" element in HTML5?</b></legend>
+	 		<label>The &lt;canvas&gt; element is a container for graphics created via JavaScript. It can be used to draw shapes, images, and animations on the fly.
+	 		</label>
+	 	</fieldset>
+
+
+	 	<fieldset>
+	 		<legend><b>71) How do you create a progress bar with HTML and CSS?</b></legend>
+	 		<label>Same as question 42</label>
+	 	</fieldset>
+
+
+
+	 	<fieldset>
+	 		<legend><b>72) What is the role of the "datalist" element in HTML5?</b></legend>
+	 		<label>The &lt;datalist&gt; element contains a set of &lt;option&gt; elements that represent the predefined options for an &lt;input&gt; element. It is used to provide autocomplete suggestions<br>
+	 		For example:
+	 		<br>
+	 		&lt;input list="datas" name="data" id="data"&gt;<br>
+	 		&lt;datalist id="datas"&gt;<br>
+    			&lt;option value="Data 1"&gt;<br>
+    			&lt;option value="Data 2"&gt;<br>
+    			&lt;option value="Data 3"&gt;<br>
+    			&lt;option value="Data 4"&gt;<br>
+    			&lt;option value="Data 5"&gt;<br>
+			&lt;/datalist&gt;
+	 		<br>
+	 		<br>
+	 		<b>OUTPUT:</b><br>
+	 		<b>Select data:</b>
+	 		<input list="datas" name="data" id="data">
+	 		<datalist id="datas">
+    			<option value="Data 1">
+    			<option value="Data 2">
+    			<option value="Data 3">
+    			<option value="Data 4">
+    			<option value="Data 5">
+			</datalist>
+	 		</label>
+	 	</fieldset>
+
+
+	 	<fieldset>
+	 		<legend><b>73) How do you center align an HTML element?</b></legend>
+	 		<label>Same as question 39</label>
+	 	</fieldset>
+
+
+
+	 	<fieldset>
+	 		<legend><b>74) What is the role of the "mark" element in HTML5?</b></legend>
+	 		<label>The &lt;mark&gt; element is used to highlight text or indicate that it has special relevance, such as search results. It typically renders with a yellow background by default:
+	 		<br>
+	 		For example:
+	 		<br>
+	 		&lt;p&gt;This is a &lt;mark&gt;highlighted&lt;/mark&gt; text.&lt;/p&gt;
+	 		<br>
+	 		<br>
+	 		<b>OUTPUT:</b>
+	 		<br>
+	 		<p>This is a <mark>highlighted</mark> text.</p>
+	 		</label>
+	 	</fieldset>
+
+
+		
+	</div>
+<video autoplay muted loop>
+        <source src="../videos/video.mp4" type="video/mp4">
+    	</video>
+	<div>
+		<h2>||<u>ASSIGNMENT Cont..</u>||</h2>
+	 	<fieldset>
+	 		<legend><b>75) How do you add a video background to an HTML element?</b></legend>
+	 		<label>You can add a video background using the &lt;video&gt; tag with CSS:
+	 		<br>
+	 		For example:
+	 		<br>
+
+			&lt;div class="video-background"&gt;<br>
+    			&lt;video autoplay muted loop&gt;<br>
+        			&lt;source src="video.mp4" type="video/mp4"&gt;<br>
+    			&lt;/video&gt;<br>
+			&lt;/div&gt;<br>
+			&lt;style&gt;<br>
+    			.video-background video {<br>
+        			position: absolute;<br>
+			        width: 100%;<br>
+			        height: 100%;<br>
+			        object-fit: cover;<br>
+			        z-index: -1;<br>
+    			}<br>
+			&lt;/style&gt;
+			</label>
+	 	</fieldset>
+
+
+	 	<fieldset>
+	 		<legend><b>76) What is the purpose of the "formnovalidate" attribute in an HTML form?</b></legend>
+	 		<label>The "formnovalidate" attribute can be added to a submit button in a form to prevent the form from being validated when the button is clicked. This allows the form to be submitted even if there are validation errors:</label>
+	 	</fieldset>
+
+
+	 	<fieldset>
+	 		<legend><b>77) How do you embed a Google Map in an HTML document?</b></legend>
+	 		<label>You can embed a Google Map by using the &lt;iframe&gt; tag. Obtain the embed link from Google Maps under the "Share" option:
+	 		<br>
+	 		For example:
+	 		<br>
+
+			&lt;iframe src="https://www.google.com/maps/embed?pb=!1m18... (your map link here)" width="600" height="450"&gt;&lt;/iframe&gt;
+			</label>
+	 	</fieldset>
+
+
+
+	 	<fieldset>
+	 		<legend><b>78) What is the purpose of the "datetime" attribute in the "time" element?</b></legend>
+	 		<label>The `datetime` attribute specifies the date and time of the `<time>` element in a machine-readable format. It helps search engines and browsers understand the context of the time:
+	 		<br>
+	 		For example:
+	 		<br>
+	 		&lt;time datetime="2023-10-01T14:30"&gt;October 1, 2023, 2:30 PM&lt;/time&gt;
+	 		<br>
+	 		<br>
+	 		<b>OUTPUT:</b>
+	 		<br>
+			<time datetime="2023-10-01T14:30">October 1, 2023, 2:30 PM</time>
+
+</label>
+	 	</fieldset>
+
+	
+</body>
+</html>

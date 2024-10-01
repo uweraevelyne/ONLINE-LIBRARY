@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Our Books Collection</title>
+    <style type="text/css">
+    .search-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px auto;
+    }
+
+    .search-section input {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        width: 300px;
+    }
+
+    .search-section button {
+        margin-top: 10px;
+        padding: 10px;
+        background-color: #333;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .search-section button:hover {
+        background-color: #555;
+    }
+
+    .book-categories {
+        margin: 20px;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+
+    .book-categories ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .popular-books {
+        margin: 20px;
+        padding: 20px;
+        background-color: #e9e9e9;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .book-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .book-item {
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 15px;
+        margin: 10px;
+        width: 200px;
+        background-color: #fff;
+    }
+
+    .book-item h3 {
+        margin: 10px 0;
+    }
+    .book-collection {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    }
+    .book {
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        max-width: 300px;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .book-cover {
+        max-width: 100%;
+        border-radius: 5px;
+    }
+
+    .book-title {
+        font-size: 1.5em;
+        margin: 10px 0;
+    }
+
+    .book-author,
+    .book-year,
+    .book-genre {
+        color: #555;
+        margin: 5px 0;
+    }
+
+    .book-description {
+        font-size: 0.9em;
+        margin: 10px 0;
+        color: #333;
+    }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ONLINE LIBRARY</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="books.html">Books</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="signup-login.html">become a member</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="search-section">
+            <h2>Search Our Collection</h2>
+            <input type="text" placeholder="Search for books..." aria-label="Search Books">
+            <button type="button">Search</button>
+        </section>
+        <section class="book-collection">
+            <article class="book">
+                <img src="media/cover1.png" alt="Book Cover 1" class="book-cover">
+                <h2 class="book-title">Book Title 1</h2>
+                <p class="book-author">Author: Author Name 1</p>
+                <p class="book-description">This is a brief description of Book Title 1. It covers the main themes and provides insights into the content.</p>
+                <p class="book-year">Published: 2020</p>
+                <p class="book-genre">Genre: Fiction</p>
+            </article>
+            <article class="book">
+                <img src="media/cover2.png" alt="Book Cover 1" class="book-cover">
+                <h2 class="book-title">Book Title 1</h2>
+                <p class="book-author">Author: Author Name 1</p>
+                <p class="book-description">This is a brief description of Book Title 1. It covers the main themes and provides insights into the content.</p>
+                <p class="book-year">Published: 2020</p>
+                <p class="book-genre">Genre: Fiction</p>
+            </article>
+                 <article class="book">
+                <img src="media/cover3.png" alt="Book Cover 1" class="book-cover">
+                <h2 class="book-title">Book Title 1</h2>
+                <p class="book-author">Author: Author Name 1</p>
+                <p class="book-description">This is a brief description of Book Title 1. It covers the main themes and provides insights into the content.</p>
+                <p class="book-year">Published: 2020</p>
+                <p class="book-genre">Genre: Fiction</p>
+            </article>
+            <article class="book">
+                <img src="media/cover4.png" alt="Book Cover 2" class="book-cover">
+                <h2 class="book-title">Book Title 2</h2>
+                <p class="book-author">Author: Author Name 2</p>
+                <p class="book-description">This is a brief description of Book Title 2. It explores various aspects of the subject matter in detail.</p>
+                <p class="book-year">Published: 2019</p>
+                <p class="book-genre">Genre: Non-Fiction</p>
+            </article>
+        </section>
+        <section class="book-categories">
+            <h2>Book Categories</h2>
+            <ul>
+                <li><strong><a href="">Fiction</a></strong></li>
+                <li><strong><a href="">Non-Fiction</a></strong></li>
+                <li><strong><a href="">Science</a></strong></li>
+                <li><strong><a href="">History</a></strong></li>
+                <li><strong><a href="">Biography</a></strong></li>
+                <li><strong><a href="">Children's Books</a></strong></li>
+                <li><strong><a href="">Fantasy</a></strong></li>
+                <li><strong><a href="">Thriller</a></strong></li>
+            </ul>
+        </section>
+
+        <section class="popular-books">
+            <h2>Popular Books</h2>
+            <div class="book-list">
+                <div class="book-item">
+                    <h3>The Great Gatsby</h3>
+                    <p><strong>Author:</strong> F. Scott Fitzgerald</p>
+                    <p><strong>Genre:</strong> Fiction</p>
+                    <p>A novel about the American dream and the disillusionment that comes with it.</p>
+                </div>
+                <div class="book-item">
+                    <h3>1984</h3>
+                    <p><strong>Author:</strong> George Orwell</p>
+                    <p><strong>Genre:</strong> Dystopian</p>
+                    <p>A chilling portrayal of a totalitarian regime and the perils of surveillance.</p>
+                </div>
+                <div class="book-item">
+                    <h3>To Kill a Mockingbird</h3>
+                    <p><strong>Author:</strong> Harper Lee</p>
+                    <p><strong>Genre:</strong> Fiction</p>
+                    <p>A story of racial injustice and moral growth in the Deep South.</p>
+                </div>
+                <div class="book-item">
+                    <h3>The Catcher in the Rye</h3>
+                    <p><strong>Author:</strong> J.D. Salinger</p>
+                    <p><strong>Genre:</strong> Fiction</p>
+                    <p>A novel exploring the challenges of teenage alienation and identity.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 ONLINE LIBRARY</p>
+    </footer>
+</body>
+</html>
